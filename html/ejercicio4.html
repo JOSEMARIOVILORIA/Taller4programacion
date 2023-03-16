@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario #3</title>
+</head>
+<body>
+    <label for=""><strong>Account Type:</strong></label> <input type="radio" name="opciones" value="Individual"> Individual <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="opciones" value="Entity"> Entity <br><br>
+    <strong>First Name:</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="" name="" pattern="(Mr|Ms|Mrs) [a-zA-Z]+ [a-zA-Z]+" required size="40"> <br><br>
+    <label for=""><strong>Middle Name or Initial:</strong></label>&nbsp;&nbsp;&nbsp;<input type="text" id="" name="" pattern="^[A-Z][a-z]$" required size="40"><br><br>
+    <label for=""><strong>Last Name:</strong></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" size="40"><br><br>
+    <label for=""><strong>Suffix</strong></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="" id="">
+     <option value="">- -</option>   
+     <option value="">Mr</option>
+     <option value="">Mrs</option>
+     <option value="">Ms</option>
+    
+    </select><br><br>
+    <label for=""><strong>Taxpayer Identification Number:</strong></label>&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" size="3"> - <input type="text" size="2"> - <input type="text" size="3"><br><br>
+    <label for=""><strong>Date of Birth:</strong></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" size="3"> - <input type="text" size="2"> - <input type="text" size="3">(MM-DD-YYYY)<br><br>
+    <label for=""><strong>Street Address:</strong></label>&nbsp;&nbsp;
+    <input type="text" size="40"><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" size="40"><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" size="40"><br><br>
+    <label for=""><strong>City:</strong></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" size="40"><br><br>
+    <label for=""><strong>State:</strong></label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="" id="">
+    <option value="">- -</option>   
+     <option value="">Amazonas</option>
+     <option value="">Antioquia</option>
+     <option value="">Arauca</option>
+     <option value="">Atlántico</option>
+     <option value="">Bogotá</option>
+     <option value="">Bolívar</option>
+     <option value="">Boyacá</option>
+     <option value="">Caldas</option>
+     <option value="">Caquetá</option>
+     <option value="">Casanare</option>
+     <option value="">Cauca</option>
+     <option value="">Cesar</option>
+     <option value="">Chocó</option>
+     <option value="">Córdoba</option>
+     <option value="">Cundinamarca</option>
+     <option value="">Guainía</option>
+     <option value="">Guaviare</option>
+     <option value="">Huila</option>
+     <option value="">La Guajira</option>
+     <option value="">Magdalena</option>
+     <option value="">Meta</option>
+     <option value="">Nariño</option>
+     <option value="">Norte de Santander</option>
+     <option value="">Putumayo</option>
+     <option value="">Quindío</option>
+     <option value="">Risaralda</option>
+     <option value="">San Andrés y Providencia</option>
+     <option value="">Santander</option>
+     <option value="">Sucre</option>
+     <option value="">Tolima</option>
+     <option value="">Valle del Cauca</option>
+     <option value="">Vaupés</option>
+     <option value="">Vichada</option>
+
+
+
+    </select><br><br>
+    <label for=""><strong>Zip Code:</strong></label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"  pattern="^[0-9]{6}([0-9]{4})?$" size="8"/>  - <input type="text" pattern="[0-9]{4}"  size="3" > (Plus four - Optional) <br><br>
+    <label for=""><strong>Home Phone</strong></label> &nbsp;&nbsp; (<input type="text" pattern="^\+(\d{2})$" size="2">) <input type="text" pattern="^\d{3}$" size="2"> - <input type="text" pattern="^\d{7}$" size="2"><br><br>
+    <label for=""><strong>Driver's License/State ID Number</strong></label>&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" size="40"><br><br>
+    <label for=""><strong>Issuing State</strong></label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="" id="">
+     <option value="">- -</option>
+     <option value="">Amazonas</option>
+     <option value="">Antioquia</option>
+     <option value="">Arauca</option>
+     <option value="">Atlántico</option>
+     <option value="">Bogotá</option>
+     <option value="">Bolívar</option>
+     <option value="">Boyacá</option>
+     <option value="">Caldas</option>
+     <option value="">Caquetá</option>
+     <option value="">Casanare</option>
+     <option value="">Cauca</option>
+     <option value="">Cesar</option>
+     <option value="">Chocó</option>
+     <option value="">Córdoba</option>
+     <option value="">Cundinamarca</option>
+     <option value="">Guainía</option>
+     <option value="">Guaviare</option>
+     <option value="">Huila</option>
+     <option value="">La Guajira</option>
+     <option value="">Magdalena</option>
+     <option value="">Meta</option>
+     <option value="">Nariño</option>
+     <option value="">Norte de Santander</option>
+     <option value="">Putumayo</option>
+     <option value="">Quindío</option>
+     <option value="">Risaralda</option>
+     <option value="">San Andrés y Providencia</option>
+     <option value="">Santander</option>
+     <option value="">Sucre</option>
+     <option value="">Tolima</option>
+     <option value="">Valle del Cauca</option>
+     <option value="">Vaupés</option>
+     <option value="">Vichada</option>
+
+    </select><br><br>
+    <label for=""><strong>Expiration Date:</strong></label>&nbsp; <input type="text" pattern="^(0?[1-9]|1[0-2])$" size="3"> - <input type="text" pattern="^([1-9]|[1-2][0-9]|3[0-1])$" size="3"> - <input type="text" pattern="^(20)[0-9]{2}$" size="4"> (MM-DD-YYYY)
+
+    
+        
+      
+    
+    
+</body>
+</html>
